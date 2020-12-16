@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  margin: 0 auto 0 auto;
+}
+
+.App-header a {
+  font-size: 1.5rem;
+  color: lightslategray;
+  text-decoration: none;
+  margin: 0 1rem 0 1rem;
+}
+
+.App-header p {
+  font-size: 3rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  margin: 0 auto 0 auto;
+  max-width: 90vw;
+}
+
+.panel img {
+  max-width: 100%;
+}
